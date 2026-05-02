@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+dist/
+data/
+electron-out/
+android/
+ios/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+tsconfig.tsbuildinfo

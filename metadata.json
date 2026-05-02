@@ -1,0 +1,6 @@
+{
+  "name": "Dossier CDT",
+  "description": "Formulaire médical pour le suivi du cancer de la thyroïde avec intégration Firebase et export PDF/Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
