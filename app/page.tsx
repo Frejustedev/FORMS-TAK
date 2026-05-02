@@ -18,10 +18,10 @@ import { NativeRedirect } from '@/components/NativeRedirect';
 export const dynamic = 'force-static';
 
 const RELEASE_TAG = 'v1.0.0';
-const RELEASE_BASE = `https://github.com/Frejustedev/formsTAK/releases/download/${RELEASE_TAG}`;
+const RELEASE_BASE = `https://github.com/Frejustedev/FORMS-TAK/releases/download/${RELEASE_TAG}`;
 const WIN_URL = `${RELEASE_BASE}/RegistreMOTAK-1.0.0-portable.exe`;
 const ANDROID_URL = `${RELEASE_BASE}/RegistreMOTAK-1.0.0-android.apk`;
-const REPO_URL = 'https://github.com/Frejustedev/formsTAK';
+const REPO_URL = 'https://github.com/Frejustedev/FORMS-TAK';
 
 function WindowsIcon({ className = '' }: { className?: string }) {
   return (
