@@ -19,7 +19,7 @@ export function useIsNativeRedirecting(): boolean {
     if (isCap || isElectron) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setRedirecting(true);
-      window.location.replace('/app/');
+      window.location.replace('/app/index.html');
     }
   }, []);
 
